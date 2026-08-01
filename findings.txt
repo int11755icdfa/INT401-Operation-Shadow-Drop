@@ -1,0 +1,56 @@
+==================================================
+Operation Shadow Drop
+Investigation Findings
+==================================================
+
+Attacker IP Address
+-------------------
+117.11.88.124
+
+Geographical Origin
+-------------------
+City: Tianjin
+Country: China
+
+User-Agent
+-----------
+Mozilla/5.0 (X11; Linux x86_64; rv:109.0)
+Gecko/20100101 Firefox/115.0
+
+Upload Endpoint
+---------------
+/reviews/upload.php
+
+Upload Directory
+----------------
+/reviews/uploads/
+
+Uploaded Web Shell
+------------------
+image.php
+
+Accessible Web Shell
+--------------------
+image.jpg.php
+
+Reverse Shell Callback
+----------------------
+nc 117.11.88.124 8080
+
+Outbound Port
+-------------
+TCP 8080
+
+Sensitive File Targeted
+-----------------------
+/etc/passwd
+
+Attack Technique
+----------------
+Malicious PHP File Upload
+Reverse Shell Execution
+Post-Exploitation Enumeration
+
+Overall Assessment
+------------------
+Critical

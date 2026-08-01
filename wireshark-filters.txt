@@ -1,0 +1,57 @@
+====================================================
+Wireshark Filters Used During Investigation
+====================================================
+
+http
+
+http.request
+
+http.request.method == POST
+
+http.response
+
+http.user_agent
+
+multipart/form-data
+
+tcp
+
+tcp.stream
+
+ip.addr == 117.11.88.124
+
+ip.addr == 24.49.63.79
+
+frame contains "User-Agent"
+
+frame contains "filename"
+
+frame contains "image.php"
+
+frame contains "image.jpg.php"
+
+frame contains "upload"
+
+frame contains "/reviews"
+
+frame contains "uploads"
+
+frame contains "passwd"
+
+frame contains "nc"
+
+frame contains "8080"
+
+frame contains "system"
+
+frame contains "GET"
+
+frame contains "POST"
+
+Follow TCP Stream
+
+Statistics → Protocol Hierarchy
+
+Statistics → Conversations
+
+Statistics → Endpoints
